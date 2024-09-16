@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon cv en ligne</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <i class="bx bx-menu" onclick="menu(this)"></i>
+    <div class="DIV_BV">
+        <h1 class="BV">Bienvenue ! Vous êtes bien sur le site Web de Elie Salumu 
+        Vous y trouverez toutes les informations le concernant</h1>
+    </div>
+    <div class="CV">
+        <a href="#IDP">IDENTITé PERSONELLE <i class="bx bx-user"></i></a>
+        
+        <a href="">éTUDES <br>FAITES<i class="bx bx-book"></i></a>
+        
+        <a href="">AUTRES <br> FORMATION<i class="bx bx-clipboard"></i></a>
+        
+        
+        <a href="">EXPERIENCE PROFESSIONELLE<i class="bx bx-table"></i></a>
+        
+        <a href=""> DOMAINE DE COMPETENCE<i class="bx bx-user-check"></i></a>
+        
+        <a href="">CONNAISSANCE LINGUISTIQUE<i class="bx bx-font-family"></i></a>
+    </div>
+
+    <div class="MENU" id="menu">
+        <a href="#">Accueil</a>
+        <a href="#">Profil</a>
+        <a href="#">Contact</a>
+        <a href="#">À propos</a>
+        <a href="#">Nos réalisations</a>
+    </div>
+
+    <header class="Mon_header">
+        <div class="div_de_profi">
+            <img src="/FICHIERS/profil.jpg" alt="">
+        </div>
+        <div class="div_de_pres">
+            <h1>Qui suis-je ?</h1>
+            <p>De son nom juridique KALONDA SALUMU Elie, il est licencié en Relations Internationales 
+            à l'Université de Kinshasa, et actuellement apprenant de 3ème cycle au même domaine. Passionné de l'informatique 
+            plus particulièrement de la programmation, il poursuit plusieurs formations en la matière d'une manière très dévouée et déjà 
+            quelques réalisations que vous pouvez découvrir dans les options ci-dessus.</p>
+        </div>
+    </header>
+    <section id="IDP">
+        <div class="Couleurs_drap">
+            <div class="rouge"></div>
+            <div class="jaune"></div>
+            <div class="bleu"></div>
+        </div>
+        <h1> <li style="list-style: decimal-leading;">IDENTITE PERSONELLE </li></h1>
+        <ul>
+            
+            <li>NOM : <hr></li>
+            <li>POST-NOM: <hr></li>
+            <li>PRENOM: <hr></li>
+            <li>LIEU ET DATE DE NAISSANCE: <hr> </li>
+            <li>SEXE : <hr></li>
+            <li>ETAT CIVIL : hr</li>
+            <li>ADRESSE</li>
+            <li>NATIONALITE</li>
+            <li>ETAT CIVILE</li>
+            <li>TEL:</li>
+        </ul>
+
+    </section>
+
+    <script>
+        function menu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+    
+</body>
+</html>
